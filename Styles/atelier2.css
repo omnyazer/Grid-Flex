@@ -1,0 +1,61 @@
+/* Atelier 2 */
+.atelier2 {
+    padding: 25px 45px;
+    border: 4px dashed #e06e3c;
+    width: 80%; 
+    margin: 50px auto; 
+}
+
+.cards-container {
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: nowrap; 
+    gap: 20px; 
+}
+
+.card {
+    border: 2px solid #df6e3c;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    flex: 1 1 200px; /*ça permet aux éléments d'être à la fois flexibles et de conserver une largeur raisonnable.*/
+    max-width: 300px; 
+    min-height: 300px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card img {
+    width: 100%; 
+    height: 200px; 
+    border-radius: 10px;
+    object-fit: cover; 
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.animal-name {
+    color: #df6e3c;
+    font-weight: bold;
+}
+
+.add-symbol {
+    color: #df6e3c;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.justification-2 {
+    text-align: left; 
+    font-size: 16px;
+    color: #635c5c;
+    max-width: 100%;
+    margin-bottom: 3%;
+    margin-top: 4%;
+}

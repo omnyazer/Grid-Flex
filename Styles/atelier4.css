@@ -1,0 +1,150 @@
+/* Atelier 4 */
+.atelier4 {
+    padding: 25px 45px;
+    border: 4px dashed #e06e3c;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.small-title {
+    font-size: 38px;
+    color: #df6e3c;
+    margin-bottom: 5%;
+    text-align: left;
+    margin-left: 0;
+    line-height: 39.01px;
+}
+
+.blue-text {
+    color: #3a65e8;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: flex-start; 
+}
+
+.service-list {
+    border: 2px solid #3a65e8;
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1;
+}
+
+.service-list h3 {
+    color: #3a65e8;
+    margin-bottom: 20px; 
+}
+
+/* Liste des services */
+.service-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 40px 0;
+}
+
+
+.service-list li:first-child {
+    background-color: #3a65e3; 
+    color: white;
+}
+
+.service-list li:first-child .service-name,
+.service-list li:first-child .service-hours {
+    color: white; 
+}
+
+.service-list li {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px; 
+    border-bottom: 1px solid #3a65e8; 
+    margin-bottom: 20px; 
+}
+
+
+.service-name {
+    color: #3a65e8;
+    font-weight: bold;
+}
+
+.service-hours {
+    color: #df6e3c;
+}
+
+.service-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25%;
+}
+
+.add-service {
+    background-color: #3a65e8;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.service-details {
+    border: 2px solid #3a65e8;
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1;
+}
+
+.service-details h3 {
+    color: #3a65e8;
+    margin-bottom: 20px; 
+}
+
+.service-details .email {
+    color: #df6e3c;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 20px; 
+}
+
+.icon-envelope, .icon-hourglass {
+    float: right; 
+    margin-left: 10px; 
+}
+
+/* Style pour les heures restantes */
+.service-details p {
+    margin-bottom: 20px; 
+    font-size: 16px;
+}
+
+.details-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.delete-service {
+    background-color: #e06e3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-user {
+    background-color: #3a65e8;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.justification-4 {
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
